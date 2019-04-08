@@ -1,26 +1,14 @@
 # demo
 
-## Project setup
-```
-npm install
-```
+### 第一次提交 | 基础骨架 2019.4.8
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+> 依据 vue-cli3.0 构建基础项目
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 第二次提交 | 引入基础样式 2019.4.8
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+> 引入基础样式文件 src/styles, src/assets
+> 在 main.js 中引入样式
+```javascript
+// 基于vue-cli3.0 所以不用安装一些其他东西
+import '@/styles/index.scss'
 ```
